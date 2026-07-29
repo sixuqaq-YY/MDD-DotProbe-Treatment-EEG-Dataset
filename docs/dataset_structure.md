@@ -4,28 +4,28 @@ The complete controlled dataset is organized around BIDS-EEG 1.9.0. This public 
 
 ```text
 dataset_root/
-??? dataset_description.json
-??? participants.tsv
-??? participants.json
-??? README.md
-??? CHANGES
-??? sub-HC001/
-?   ??? ses-baseline/
-?       ??? eeg/
-?       ??? beh/
-??? sub-NOCCS001/
-?   ??? ses-baseline/
-?   ??? ses-followup/
-??? sub-CCS001/
-?   ??? ses-baseline/
-?   ??? ses-followup/
-??? derivatives/
-?   ??? eeglab-preproc/
-?   ??? erp/
-?   ??? gfp/
-?   ??? topomaps/
-??? code/
-??? docs/
+├── dataset_description.json
+├── participants.tsv
+├── participants.json
+├── README.md
+├── CHANGES
+├── sub-HC001/
+│   └── ses-baseline/
+│       ├── eeg/
+│       └── beh/
+├── sub-NOCCS001/
+│   ├── ses-baseline/
+│   └── ses-followup/
+├── sub-CCS001/
+│   ├── ses-baseline/
+│   └── ses-followup/
+├── derivatives/
+│   ├── eeglab-preproc/
+│   ├── erp/
+│   ├── gfp/
+│   └── topomaps/
+├── code/
+└── docs/
 ```
 
 ## Naming
