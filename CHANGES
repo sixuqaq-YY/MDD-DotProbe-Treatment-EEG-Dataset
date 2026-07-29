@@ -1,0 +1,10 @@
+# Changelog
+
+## 0.1.0 - 2026-07-29
+
+- Added public dataset documentation and machine-readable metadata templates.
+- Added task-condition, treatment-arm, visit, and field dictionaries.
+- Added controlled-access and Data Use Agreement guidance.
+- Documented the anonymous representative reviewer-package route.
+- Excluded participant EEG, clinical records, source identifiers, and private mappings from Git.
+

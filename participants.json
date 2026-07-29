@@ -1,0 +1,42 @@
+{
+  "participant_id": {
+    "Description": "Anonymous BIDS participant identifier that does not encode initials, dates, or clinical values."
+  },
+  "diagnosis": {
+    "Description": "Diagnostic cohort.",
+    "Levels": {
+      "HC": "Healthy control",
+      "MDD": "Major depressive disorder"
+    }
+  },
+  "treatment_arm": {
+    "Description": "Structured cohort or treatment-arm identifier.",
+    "Levels": {
+      "HC": "Healthy-control reference cohort",
+      "NOCCS": "MDD receiving standard antidepressant treatment without cordycepin exposure",
+      "CCS": "MDD receiving adjunctive cordycepin plus standard antidepressant treatment"
+    }
+  },
+  "treatment_label": {
+    "Description": "Human-readable treatment-arm label."
+  },
+  "cordycepin_exposure": {
+    "Description": "Whether adjunctive cordycepin exposure is represented in the treatment arm.",
+    "Levels": {
+      "yes": "Adjunctive cordycepin exposure",
+      "no": "No adjunctive cordycepin exposure"
+    }
+  },
+  "available_visits": {
+    "Description": "Semicolon-delimited visits represented for the participant."
+  },
+  "data_access_level": {
+    "Description": "Release boundary for the row.",
+    "Levels": {
+      "template": "Synthetic example only",
+      "reviewer": "De-identified reviewer package",
+      "controlled": "Complete controlled-access release"
+    }
+  }
+}
+

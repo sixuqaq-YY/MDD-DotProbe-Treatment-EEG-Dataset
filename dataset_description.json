@@ -1,0 +1,17 @@
+{
+  "Name": "MDD-DotProbe-Treatment-EEG-Dataset",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "License": "Data Use Agreement",
+  "Authors": [
+    "Fuling Liu",
+    "Zhouwei Wu",
+    "Yong Yuan",
+    "Changming Wang"
+  ],
+  "Acknowledgements": "We thank all participants and their families, the clinical staff involved in recruitment and assessment, and the developers of the open-source EEG tools used in this project.",
+  "HowToAcknowledge": "Cite the associated Scientific Data manuscript and the permanent dataset record for the accessed release version.",
+  "EthicsApprovals": [
+    "Beijing Anding Hospital, Capital Medical University, approval 2022106FS-2"
+  ]
+}

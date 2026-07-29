@@ -1,0 +1,5 @@
+participant_id	diagnosis	treatment_arm	treatment_label	cordycepin_exposure	available_visits	data_access_level
+sub-exampleHC	HC	HC	healthy_control	no	baseline	template
+sub-exampleNOCCS	MDD	NOCCS	standard_treatment	no	baseline;followup	template
+sub-exampleCCS	MDD	CCS	adjunctive_cordycepin_plus_standard_treatment	yes	baseline;followup	template
+

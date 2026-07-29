@@ -1,0 +1,22 @@
+condition_number	condition_name	trigger_codes	event_type	description
+1	Black_useless	11,12	control_or_blank	Non-task or black-screen marker
+2	B_DotL	111	probe	Baseline dot-left
+3	B_DotR	112	probe	Baseline dot-right
+4	B_DotLR	111,112	probe	Baseline dot-left and dot-right combined
+5	InNt_Faces	31,41	cue	In-Nt face-pair onset
+6	NtIn_Faces	32,42	cue	Nt-In face-pair onset
+7	InNtNtIn_Faces	31,41,32,42	cue	InNt and NtIn face-pair combined
+8	InNt_DotL	131	probe	Probe-left after InNt cue
+9	InNt_DotR	141	probe	Probe-right after InNt cue
+10	NtIn_DotL	132	probe	Probe-left after NtIn cue
+11	NtIn_DotR	142	probe	Probe-right after NtIn cue
+12	InNtNtIn_DotLR	131,141,132,142	probe	Probe events after InNt or NtIn cues
+13	NeNt_Faces	51,61	cue	Ne-Nt face-pair onset
+14	NtNe_Faces	52,62	cue	Nt-Ne face-pair onset
+15	NeNtNtNe_Faces	51,61,52,62	cue	NeNt and NtNe face-pair combined
+16	NeNt_DotL	151	probe	Probe-left after NeNt cue
+17	NeNt_DotR	161	probe	Probe-right after NeNt cue
+18	NtNe_DotL	152	probe	Probe-left after NtNe cue
+19	NtNe_DotR	162	probe	Probe-right after NtNe cue
+20	NeNtNtNe_DotLR	151,161,152,162	probe	Probe events after NeNt or NtNe cues
+

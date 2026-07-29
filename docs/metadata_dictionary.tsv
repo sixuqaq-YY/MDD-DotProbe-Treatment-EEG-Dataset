@@ -1,0 +1,14 @@
+field_name	data_type	allowed_values	unit_or_format	description
+participant_id	string	sub-[A-Za-z0-9]+	BIDS identifier	Anonymous participant identifier
+diagnosis	categorical	HC;MDD	none	Diagnostic cohort
+treatment_arm	categorical	HC;NOCCS;CCS	none	Cohort or treatment arm
+treatment_label	string	healthy_control;standard_treatment;adjunctive_cordycepin_plus_standard_treatment	none	Human-readable treatment label
+cordycepin_exposure	categorical	yes;no	none	Structured adjunctive cordycepin exposure flag
+visit_label	categorical	baseline;followup	none	Visit label without a calendar date
+session_timing	categorical	first_assessment;second_assessment	none	Relative session timing
+behavior_file	string	BIDS-relative path	path	Link to associated behavioral file
+eeg_file	string	BIDS-relative path	path	Link to associated EEG file
+derivative_path	string	BIDS-relative path	path	Link to a derived output
+data_access_level	categorical	reviewer;controlled	none	Applicable access boundary
+missing_reason	categorical	not_collected;not_applicable;quality_exclusion;unknown	none	Reason a value or visit is unavailable
+

@@ -1,0 +1,11 @@
+.worktrees/
+/private/
+/outputs/
+*.set
+*.fdt
+*.mat
+*.xls
+*.xlsx
+*.zip
+__pycache__/
+*.pyc

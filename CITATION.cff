@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and the permanent dataset record when available."
+title: "MDD-DotProbe-Treatment-EEG-Dataset documentation"
+type: dataset
+version: 0.1.0
+date-released: 2026-07-29
+license: MIT
+repository-code: "https://github.com/sixuqaq-YY/MDD-DotProbe-Treatment-EEG-Dataset"
+authors:
+  - family-names: Liu
+    given-names: Fuling
+  - family-names: Wu
+    given-names: Zhouwei
+  - family-names: Yuan
+    given-names: Yong
+  - family-names: Wang
+    given-names: Changming

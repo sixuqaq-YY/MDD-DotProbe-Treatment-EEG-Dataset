@@ -1,0 +1,5 @@
+treatment_arm	diagnosis	cordycepin_exposure	description	manuscript_n
+HC	HC	no	Healthy-control reference cohort	25
+NOCCS	MDD	no	Standard antidepressant treatment without cordycepin exposure	22
+CCS	MDD	yes	Adjunctive cordycepin plus standard antidepressant treatment	21
+

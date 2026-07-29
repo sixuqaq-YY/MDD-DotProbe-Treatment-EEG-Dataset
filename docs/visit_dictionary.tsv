@@ -1,0 +1,4 @@
+visit_label	bids_session	description	expected_for_hc	expected_for_mdd
+baseline	ses-baseline	First included EEG assessment	yes	yes
+followup	ses-followup	Second included EEG assessment where paired data are available	no	yes
+
