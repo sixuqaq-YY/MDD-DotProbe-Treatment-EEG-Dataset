@@ -5,6 +5,5 @@
 - Added public dataset documentation and machine-readable metadata templates.
 - Added task-condition, treatment-arm, visit, and field dictionaries.
 - Added controlled-access and Data Use Agreement guidance.
-- Documented the anonymous representative reviewer-package route.
+- Published and documented the anonymous representative reviewer package as GitHub Release `reviewer-sample-v0.1.0`.
 - Excluded participant EEG, clinical records, source identifiers, and private mappings from Git.
-

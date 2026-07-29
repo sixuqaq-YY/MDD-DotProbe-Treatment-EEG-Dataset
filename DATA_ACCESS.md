@@ -2,19 +2,23 @@
 
 ## Public materials
 
-This repository publicly provides the dataset schema, field definitions, condition and trigger dictionary, treatment-arm dictionary, visit definitions, stimulus-access notes, and access terms. It does not host participant EEG or clinical data.
+The tracked Git repository publicly provides the dataset schema, field definitions, condition and trigger dictionary, treatment-arm dictionary, visit definitions, stimulus-access notes, and access terms. It does not host the complete participant EEG dataset or clinical data. A small de-identified reviewer sample is available as a GitHub Release asset.
 
 ## Anonymous peer-review sample
 
-For journal peer review, the revised manuscript supplies an anonymous, immediate-download link to a static representative package containing:
+For journal peer review, the following public URL provides anonymous, immediate download without author contact, login, password, token, or case-by-case approval:
+
+[Download the de-identified reviewer sample (v0.1.0)](https://github.com/sixuqaq-YY/MDD-DotProbe-Treatment-EEG-Dataset/releases/download/reviewer-sample-v0.1.0/MDD-DotProbe-reviewer-sample-v0.1.0.zip)
+
+The static representative package contains:
 
 - one HC baseline visit;
 - one paired NOCCS baseline/follow-up participant;
 - one paired CCS baseline/follow-up participant;
-- available de-identified EEG, behavioral, derived-data, and minimum interpretation metadata for those visits;
+- processed continuous EEG, available task-event tables, cleaned ERP derivatives, and minimum interpretation metadata for those visits;
 - a file manifest with SHA-256 checksums.
 
-The reviewer route requires no author contact, research proposal, institutional login, or case-by-case approval. Reviewer-specific tokens or credentials are provided in the manuscript or reviewer cover page and are not committed to this public repository.
+Archive SHA-256: `d4e939d410a619b1e6c3248ee1431dd736cc70057a2ce42334bae65e95b379fa`
 
 ## Complete dataset
 
@@ -31,4 +35,3 @@ Access controls are intended to protect participants, not to screen applicants b
 ## Release and preservation
 
 Each formal complete-data release will be versioned. The publication-stage record will use an appropriate long-term repository and persistent identifier. Repository metadata and the manuscript will identify the exact version reviewed.
-

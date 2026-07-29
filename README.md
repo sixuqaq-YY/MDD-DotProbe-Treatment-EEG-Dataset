@@ -16,9 +16,9 @@ The task contains 360 trials in four blocks, using sad-neutral and fear-neutral 
 
 ## Important release boundary
 
-This public repository contains documentation, machine-readable schemas, condition definitions, access terms, and release tooling. It does **not** contain participant EEG, clinical records, source filenames, acquisition dates, or the private identifier crosswalk.
+The tracked Git repository contains documentation, machine-readable schemas, condition definitions, and access terms. It does **not** contain the complete participant EEG dataset, clinical records, source filenames, acquisition dates, or the private identifier crosswalk.
 
-The complete human EEG dataset is available through controlled access under a Data Use Agreement. During peer review, editors and reviewers receive a separate anonymous link to a small, de-identified representative package. See [DATA_ACCESS.md](DATA_ACCESS.md).
+A small, de-identified representative package is published as an anonymous GitHub Release asset: [download the reviewer sample](https://github.com/sixuqaq-YY/MDD-DotProbe-Treatment-EEG-Dataset/releases/download/reviewer-sample-v0.1.0/MDD-DotProbe-reviewer-sample-v0.1.0.zip). The complete human EEG dataset is available through controlled access under a Data Use Agreement. See [DATA_ACCESS.md](DATA_ACCESS.md).
 
 ## Repository contents
 
